@@ -1,0 +1,24 @@
+\begin{thebibliography}{1}
+
+\bibitem{cover2012elements}
+Thomas~M Cover and Joy~A Thomas.
+\newblock {\em Elements of information theory}.
+\newblock John Wiley \& Sons, 2012.
+
+\bibitem{adi-maxent}
+Adithya~C Ganesh.
+\newblock The principle of maximum entropy.
+\newblock {\em Stanford mathematics department: directed reading program},
+  2019.
+
+\bibitem{mackay2003information}
+David~JC MacKay.
+\newblock {\em Information theory, inference and learning algorithms}.
+\newblock Cambridge university press, 2003.
+
+\bibitem{shannon1948mathematical}
+Claude~Elwood Shannon.
+\newblock A mathematical theory of communication.
+\newblock {\em Bell system technical journal}, 27(3):379--423, 1948.
+
+\end{thebibliography}

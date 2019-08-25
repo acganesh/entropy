@@ -18,29 +18,24 @@
 \newcommand{\bibent}{\noindent \hangindent 40pt}
 \newenvironment{workscited}{\newpage \begin{center} \textsc{References} \end{center}}{\newpage }
 
-\title{Information-theoretic models of trust \\ \vspace{0.3cm} OpenAI Trust in AI Report}
+\title{Information-theoretic tools for trust \\ \vspace{0.3cm} OpenAI Trust in AI Report}
 \author{\textsc{Adithya C. Ganesh}}
 
 \begin{document}
 
-\noindent Political scientists identify two components of trust: {\it information problems} and {\it commitment problems}.  These two categories date back to the prisoner's dilemma, but more broadly can be applied to modeling agents in war (see bargaining theory), iterated games (see Axelrod's tournament), and protectionist economic policy.
+\noindent Political scientists identify two categories of problems that impede trust: {\it information problems} and {\it commitment problems}.  They are traditionally applied to the prisoner's dilemma, but they play a critical role in understanding problems of bargaining in war, iterated games, and economic policy.  
 
-While nearly all economists believe that free trade is (generally) a good thing, protectionist economic policy
+For instance, the current U.S.-China trade war presents a setting in which two parties converge on ostensibly suboptimal policy (economic sanctions) because of these problems.  First, each party lacks complete information on the long-term objectives of the other (e.g. geopolitical / economic agendas).  Second, each party cannot be sure that the other will commit to policy changes (e.g. reduction in trade deficit, or improvement in Chinese market practices).  Modelling such systems with information theory might play a role in building AI we can trust.
 
-For an example of the latter, the U.S.-China trade war is a good case study.
-
-The importance of codes is readily apparent in history; see e.g. Alan Turing.  Information theory provides a useful framework to enable trust in AI systems.  There are three facets of "information-theoretic trust": {\it commpression}, {\it communication}, and {\it inference}.  While these are standard topics in introductory texts like Thomas and Cover, it is worth expanding on the subtle connections between information theory and trust.
+There are three core facets of "information-theoretic trust": {\it commpression}, {\it communication}, and {\it inference}.  While these are standard topics in introductory texts like Thomas and Cover, it is worth expanding on the subtle connections between information theory and trust.
 
 First, what does it take to safely encode a message?  Shannon's source coding theorem states that $N$ i.i.d. random variables with entropy $H(X)$ can be compressed into more than $N H(X)$ bits with negligible risk of information loss as $N \to \infty$.  Conversely, if they are compressed into fewer than $N H(X)$ bits, it is virtually certain that information will be lost (MacKay).  The language of compression is a powerful framework to analyze dimensionality reduction methods like PCA and autoencoders.
 
 How much can one say over a noisy channel?  Shannon's noisy-channel coding theorem states that there exists a non-negative number $C$ (the channel capacity) with the following property.  For any $\varepsilon > 0$ and $R < C$, for large enough $N$, there exists a code of length $N$ and rate $\geq R$ and a decoding algorithm such that the maximal probability of block error is $< \varepsilon$.  This gives concrete 
 
-Finally, what priors should we use to model agents?  There are many potential answers to this question, but information theory suggests that the ``maximum-entropy distribution'' makes the fewest assumptions.  There are many expositions of this idea, see e.g. [\dots].  We will present
+Finally, what priors should we use to model agents?  There are many potential answers to this question, but information theory suggests that the ``maximum-entropy distribution'' makes the fewest assumptions.  There are many expositions of this idea, see e.g. [(cite my maxent article)].  The discrete uniform distribution is the maximum entropy prior with no further constraints.  With fixed variance, the Gaussian is the maximum entropy prior; with fixed mean on $(0, \infty)$, the exponential distribution is the maximum entropy prior.
 
-Suppose Alice is a researcher trying to understand some data.  She is studying a phenomenon and wants to estimate a prior probability distribution among $m$ possible outcomes. She has some prior information about what the phenomenon looks like.  
-
-To estimate the distribution, she runs the following experiment:
-
+Suppose Alice is a researcher trying to understand some data.  She is studying a phenomenon and wants to estimate a discrete prior over $m$ possible outcomes, understand some constraints.  To do so, she runs the following experiment:
 \begin{itemize}
   \item Randomly distribute $N$ quanta of probability, each worth $\frac{1}{N}$, among the $m$ possibilities.
   \item Check if the probability assignment is consistent with her prior information.  If inconsistent: reject and try again.
@@ -50,25 +45,12 @@ To estimate the distribution, she runs the following experiment:
     \end{align*}
     where $\p_i$ is the probability of the $i$-th outcome, and $n_i$ is the number of quanta that were assigned to the $i$-th proposition.
 \end{itemize}
+The likelihood of any particular probability distribution is given by a multinomial coefficient, $\Pr(p) = \frac{N!}{n_1! n_2! \cdots n_m!} m^{-N}$.  Using Stirling's approximation, it is not hard to show that the most likely prior will converge to the maximum entropy prior as $N \to \infty$ (the full derivation can be found in [\dots]).
 
+While model interpretability techniques (see e.g. X, Y, Z) have shed light on how to understand agents, information-theoretic models are still powerful tools we can apply to model the multi-agent case.  Build a future with safe, trustworthy AI may require deep inquiry and understanding of the information-theoretic toolbox.
 
-
-While model interpretability techniques (see e.g. X, Y, Z) have shed light on how to understand agents, information-theoretic models are still powerful tools we can apply to model the multi-agent case.  And indeed, expositions 
-
-
-%%%%Works cited
-\begin{workscited}
-
-\bibent Cover, Thomas M., and Joy A. Thomas. {\it Elements of information theory.} John Wiley & Sons, 2012.
-
-\bibent Ganesh, Adithya C. "The principle of maximum entropy."  {\it Stanford Mathematics Department, Directed reading program.}
-
-\bibent MacKay, David JC, and David JC Mac Kay. {\it Information theory, inference and learning algorithms.} Cambridge university press, 2003.
-
-\bibent Shannon, Claude Elwood. "A mathematical theory of communication." {\it Bell system technical journal} 27.3 (1948): 379-423.
-
-\end{workscited}
-
-\end{flushleft}
+\bibliographystyle{plain}
+\nocite{*}
+\bibliography{refs}
 
 \end{document}

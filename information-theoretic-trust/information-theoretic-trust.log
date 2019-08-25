@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.7.13)  25 AUG 2019 13:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.7.13)  25 AUG 2019 14:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -182,17 +182,17 @@ LaTeX Font Info:    ... okay on input line 24.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 45.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 40.
 (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
 
 ! Undefined control sequence.
 <recently read> \p 
                    
-l.47 ...tion, her estimated prior distribution $\p
+l.42 ...tion, her estimated prior distribution $\p
                                                   $ is given by
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -203,7 +203,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument>  \p 
                _i = \frac {n_i}{N}; \qquad i \in \left \{ 1, 2, \dots , m \r...
-l.50     \end{align*}
+l.45     \end{align*}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -214,7 +214,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument>  \p 
                _i = \frac {n_i}{N}; \qquad i \in \left \{ 1, 2, \dots , m \r...
-l.50     \end{align*}
+l.45     \end{align*}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -225,7 +225,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \p 
                    
-l.51     where $\p
+l.46     where $\p
                   _i$ is the probability of the $i$-th outcome, and $n_i$ is...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -233,60 +233,31 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[1
+(./information-theoretic-trust.bbl [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-! Misplaced alignment tab character &.
-l.62 ...ments of information theory.} John Wiley &
-                                                   Sons, 2012.
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-[2]
-
-! LaTeX Error: \begin{document} ended by \end{flushleft}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.72 \end{flushleft}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.72 \end{flushleft}
-                    
-Things are pretty mixed up, but I think the worst is over.
-
-(./information-theoretic-trust.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) [2] (./information-theore
+tic-trust.aux) ) 
 Here is how much of TeX's memory you used:
- 1833 strings out of 492623
- 24241 string characters out of 6135669
- 100771 words of memory out of 5000000
- 5775 multiletter control sequences out of 15000+600000
- 7700 words of font info for 28 fonts, out of 8000000 for 9000
+ 1841 strings out of 492623
+ 24402 string characters out of 6135669
+ 101783 words of memory out of 5000000
+ 5779 multiletter control sequences out of 15000+600000
+ 8004 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 27i,9n,43p,560b,216s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
-/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmti10.pfb>
-Output written on information-theoretic-trust.pdf (2 pages, 83800 bytes).
+ 27i,9n,43p,590b,216s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pf
+b></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/shar
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmti10.pfb>
+Output written on information-theoretic-trust.pdf (2 pages, 107724 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
- 27 compressed objects within 1 object stream
+ 51 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
