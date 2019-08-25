@@ -1,0 +1,74 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+\usepackage[margin=1in]{geometry}
+
+% Compact itemize
+\usepackage{enumitem}
+\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+
+\lhead{OpenAI Trust in AI Report: Information-theoretic trust}
+\rhead{Adithya C. Ganesh}
+
+%
+%Works cited environment
+%(to start, use \begin{workscited...}, each entry preceded by \bibent)
+% - from Ryan Alcock's MLA style file
+%
+\newcommand{\bibent}{\noindent \hangindent 40pt}
+\newenvironment{workscited}{\newpage \begin{center} \textsc{References} \end{center}}{\newpage }
+
+\title{Information-theoretic models of trust \\ \vspace{0.3cm} OpenAI Trust in AI Report}
+\author{\textsc{Adithya C. Ganesh}}
+
+\begin{document}
+
+\noindent Political scientists identify two components of trust: {\it information problems} and {\it commitment problems}.  These two categories date back to the prisoner's dilemma, but more broadly can be applied to modeling agents in war (see bargaining theory), iterated games (see Axelrod's tournament), and protectionist economic policy.
+
+While nearly all economists believe that free trade is (generally) a good thing, protectionist economic policy
+
+For an example of the latter, the U.S.-China trade war is a good case study.
+
+The importance of codes is readily apparent in history; see e.g. Alan Turing.  Information theory provides a useful framework to enable trust in AI systems.  There are three facets of "information-theoretic trust": {\it commpression}, {\it communication}, and {\it inference}.  While these are standard topics in introductory texts like Thomas and Cover, it is worth expanding on the subtle connections between information theory and trust.
+
+First, what does it take to safely encode a message?  Shannon's source coding theorem states that $N$ i.i.d. random variables with entropy $H(X)$ can be compressed into more than $N H(X)$ bits with negligible risk of information loss as $N \to \infty$.  Conversely, if they are compressed into fewer than $N H(X)$ bits, it is virtually certain that information will be lost (MacKay).  The language of compression is a powerful framework to analyze dimensionality reduction methods like PCA and autoencoders.
+
+How much can one say over a noisy channel?  Shannon's noisy-channel coding theorem states that there exists a non-negative number $C$ (the channel capacity) with the following property.  For any $\varepsilon > 0$ and $R < C$, for large enough $N$, there exists a code of length $N$ and rate $\geq R$ and a decoding algorithm such that the maximal probability of block error is $< \varepsilon$.  This gives concrete 
+
+Finally, what priors should we use to model agents?  There are many potential answers to this question, but information theory suggests that the ``maximum-entropy distribution'' makes the fewest assumptions.  There are many expositions of this idea, see e.g. [\dots].  We will present
+
+Suppose Alice is a researcher trying to understand some data.  She is studying a phenomenon and wants to estimate a prior probability distribution among $m$ possible outcomes. She has some prior information about what the phenomenon looks like.  
+
+To estimate the distribution, she runs the following experiment:
+
+\begin{itemize}
+  \item Randomly distribute $N$ quanta of probability, each worth $\frac{1}{N}$, among the $m$ possibilities.
+  \item Check if the probability assignment is consistent with her prior information.  If inconsistent: reject and try again.
+  \item If the assignment agrees with her prior information, her estimated prior distribution $\p$ is given by
+    \begin{align*}
+      \p_i = \frac{n_i}{N}; \qquad i \in \left\{ 1, 2, \dots, m \right\}
+    \end{align*}
+    where $\p_i$ is the probability of the $i$-th outcome, and $n_i$ is the number of quanta that were assigned to the $i$-th proposition.
+\end{itemize}
+
+
+
+While model interpretability techniques (see e.g. X, Y, Z) have shed light on how to understand agents, information-theoretic models are still powerful tools we can apply to model the multi-agent case.  And indeed, expositions 
+
+
+%%%%Works cited
+\begin{workscited}
+
+\bibent Cover, Thomas M., and Joy A. Thomas. {\it Elements of information theory.} John Wiley & Sons, 2012.
+
+\bibent Ganesh, Adithya C. "The principle of maximum entropy."  {\it Stanford Mathematics Department, Directed reading program.}
+
+\bibent MacKay, David JC, and David JC Mac Kay. {\it Information theory, inference and learning algorithms.} Cambridge university press, 2003.
+
+\bibent Shannon, Claude Elwood. "A mathematical theory of communication." {\it Bell system technical journal} 27.3 (1948): 379-423.
+
+\end{workscited}
+
+\end{flushleft}
+
+\end{document}
