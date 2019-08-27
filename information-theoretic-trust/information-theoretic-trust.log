@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.8.26)  27 AUG 2019 15:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.8.26)  27 AUG 2019 15:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -192,20 +192,20 @@ This may cause the page layout to be inconsistent, however.
 
 ] [2]
 (./information-theoretic-trust.bbl
-Underfull \hbox (badness 1178) in paragraph at lines 4--7
+Underfull \hbox (badness 1178) in paragraph at lines 9--12
 []\OT1/cmr/m/n/10.95 Robert Ax-el-rod and William D Hamil-ton.  The evo-lu-tion
  of co-op-er-a-tion.  \OT1/cmr/m/it/10.95 sci-ence\OT1/cmr/m/n/10.95 ,
  []
 
 [3]) [4] (./information-theoretic-trust.aux) ) 
 Here is how much of TeX's memory you used:
- 1840 strings out of 492623
- 24425 string characters out of 6135669
- 101724 words of memory out of 5000000
- 5780 multiletter control sequences out of 15000+600000
+ 1842 strings out of 492623
+ 24458 string characters out of 6135669
+ 102732 words of memory out of 5000000
+ 5782 multiletter control sequences out of 15000+600000
  8305 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,11n,43p,897b,298s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,10n,43p,897b,300s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10
@@ -214,7 +214,7 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmti10.pfb>
-Output written on information-theoretic-trust.pdf (4 pages, 107942 bytes).
+Output written on information-theoretic-trust.pdf (4 pages, 108311 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  34 compressed objects within 1 object stream
