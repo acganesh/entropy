@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.8.26)  27 AUG 2019 15:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.8.26)  27 AUG 2019 15:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -183,10 +183,6 @@ LaTeX Font Info:    ... okay on input line 25.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-LaTeX Warning: Citation `tetrais2017brink' on page 1 undefined on input line 37
-.
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
 Make it at least 13.59999pt.
 We now make it that large for the rest of the document.
@@ -194,36 +190,34 @@ This may cause the page layout to be inconsistent, however.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-]
+] [2]
 (./information-theoretic-trust.bbl
 Underfull \hbox (badness 1178) in paragraph at lines 4--7
 []\OT1/cmr/m/n/10.95 Robert Ax-el-rod and William D Hamil-ton.  The evo-lu-tion
  of co-op-er-a-tion.  \OT1/cmr/m/it/10.95 sci-ence\OT1/cmr/m/n/10.95 ,
  []
 
-) [2] (./information-theoretic-trust.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+[3]) [4] (./information-theoretic-trust.aux) ) 
 Here is how much of TeX's memory you used:
- 1836 strings out of 492623
- 24320 string characters out of 6135669
- 101696 words of memory out of 5000000
- 5775 multiletter control sequences out of 15000+600000
- 8613 words of font info for 31 fonts, out of 8000000 for 9000
+ 1839 strings out of 492623
+ 24403 string characters out of 6135669
+ 101720 words of memory out of 5000000
+ 5779 multiletter control sequences out of 15000+600000
+ 8305 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 27i,10n,43p,899b,229s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
-sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on information-theoretic-trust.pdf (2 pages, 95253 bytes).
+ 29i,11n,43p,897b,300s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10
+.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/shar
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmti10.pfb>
+Output written on information-theoretic-trust.pdf (4 pages, 107556 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
- 27 compressed objects within 1 object stream
+ 49 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

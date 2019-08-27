@@ -37,6 +37,33 @@ Bernhard~C Geiger and Gernot Kubin.
 \newblock In {\em 2012 IEEE Information Theory Workshop}, pages 562--566. IEEE,
   2012.
 
+\bibitem{hohman2018visual}
+Fred~Matthew Hohman, Minsuk Kahng, Robert Pienta, and Duen~Horng Chau.
+\newblock Visual analytics in deep learning: An interrogative survey for the
+  next frontiers.
+\newblock {\em IEEE transactions on visualization and computer graphics}, 2018.
+
+\bibitem{jaynes1982rationale}
+Edwin~T Jaynes.
+\newblock On the rationale of maximum-entropy methods.
+\newblock {\em Proceedings of the IEEE}, 70(9):939--952, 1982.
+
+\bibitem{jaynes2003probability}
+Edwin~T Jaynes.
+\newblock {\em Probability theory: The logic of science}.
+\newblock Cambridge university press, 2003.
+
+\bibitem{kim2018disentangling}
+Hyunjik Kim and Andriy Mnih.
+\newblock Disentangling by factorising.
+\newblock {\em arXiv preprint arXiv:1802.05983}, 2018.
+
+\bibitem{koh2017understanding}
+Pang~Wei Koh and Percy Liang.
+\newblock Understanding black-box predictions via influence functions.
+\newblock In {\em Proceedings of the 34th International Conference on Machine
+  Learning-Volume 70}, pages 1885--1894. JMLR. org, 2017.
+
 \bibitem{lake2010two}
 David~A Lake.
 \newblock Two cheers for bargaining theory: Assessing rationalist explanations
@@ -47,6 +74,11 @@ David~A Lake.
 David~JC MacKay.
 \newblock {\em Information theory, inference and learning algorithms}.
 \newblock Cambridge university press, 2003.
+
+\bibitem{olah2017feature}
+Chris Olah, Alexander Mordvintsev, and Ludwig Schubert.
+\newblock Feature visualization.
+\newblock {\em Distill}, 2(11):e7, 2017.
 
 \bibitem{panagariya2003international}
 Arvind Panagariya.

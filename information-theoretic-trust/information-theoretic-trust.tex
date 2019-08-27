@@ -34,27 +34,21 @@ First, compression plays a critical role in safe interaction with an ensemble of
 
 Shannon's source coding theorem states that $N$ i.i.d. random variables with entropy $H(X)$ can be compressed into more than $N H(X)$ bits with negligible risk of information loss as $N \to \infty$ \cite{shannon1948mathematical}\cite{mackay2003information}.  Conversely, if they are compressed into fewer than $N H(X)$ bits, it is virtually certain that information will be lost.  The language of compression is a powerful framework to analyze dimensionality reduction models like principal component analysis \cite{geiger2012relative} and autoencoders \cite{doersch2016tutorial}.
 
-Second, safely interacting with AI requires trust in our communication channels.  While the source coding theorem provides a useful framework to analyze the lossless case, in practice, we often deal with noisy channels.  ``Nuclear close calls'' present useful case studies to examine in history, wherein nuclear weapons were ``nearly'' deployed by a legitimate authority \cite{tertrais2017brink}.  In these settings, state actors are unsure of the intentions of others.  The Norwegian rocket launch of 1995, described as a ``poster child for nuclear dangers'' (Tetrais 53 \cite{tetrais2017brink}), involved Norwegian and American scientists launching a rocket to study weather data.  While information about this launch was sent to Moscow, before it reached the authorities, the launch was interpreted as a sign of a possible adversarial strike.  
+Second, safely interacting with AI requires trust in our communication channels.  While the source coding theorem provides a useful framework to analyze the lossless case, in practice, we often deal with noisy channels.  ``Nuclear close calls'' present useful case studies to examine in history, wherein nuclear weapons were ``nearly'' deployed by a legitimate authority \cite{tertrais2017brink}.  In these settings, state actors are unsure of the intentions of others.  The Norwegian rocket launch of 1995, described as a ``poster child for nuclear dangers'' (Tetrais \cite{tertrais2017brink}), involved Norwegian and American scientists launching a rocket to study weather data.  While information about this launch was sent to Moscow, before it reached the authorities, the launch was interpreted as a sign of a possible adversarial strike.
 
-How much can one say over a noisy channel?  Shannon's noisy-channel coding theorem states that there exists a non-negative number $C$ (the channel capacity) with the following property.  For any $\varepsilon > 0$ and $R < C$, for large enough $N$, there exists a code of length $N$ and rate $\geq R$ and a decoding algorithm such that the maximal probability of block error is $< \varepsilon$.  (\dots expand).
+Shannon's noisy-channel coding theorem formalizes the notion of channel capacity, a measure of how much we can safely transmit over a noisy channel.  We first review the {\it mutual information,} which provides a measure of how much information is communicated over a channel.  If $X, Y$ are random variables representing the input and output to a noisy channel, then the mutual information quantifies how much information the output conveys about the input: $I(X; Y) = H(X) - H(X | Y) = H(Y) - H(Y|X)$.  The {\it channel capacity} of a channel $Q$ can be computed as $C(Q) = \max_{P_X} I(X; Y)$, where the maximization is over all possible input ensembles $P_X$.  Intuitively, $C(Q)$ represents the number of bits that can be sent over a channel with arbitrarily low decoding error for the recipient.
 
-Finally, what priors should we use to model agents?  There are many potential answers to this question, but information theory suggests that the ``maximum-entropy distribution'' makes the fewest assumptions.  There are many expositions of this idea, see e.g. [(cite my maxent article)].  The discrete uniform distribution is the maximum entropy prior with no further constraints.  With fixed variance, the Gaussian is the maximum entropy prior; with fixed mean on $(0, \infty)$, the exponential distribution is the maximum entropy prior.
+Finally, trusting AI requires us to model and infer the behavior of complex agents.  We might initially ask which priors are most accurate in settings of incomplete information.  There are many potential answers to this question, but information theory suggests that the ``maximum-entropy distribution'' makes the fewest assumptions \cite{adi-maxent} \cite{mackay2003information}.  
 
-%Suppose Alice is a researcher trying to understand some data.  She is studying a phenomenon and wants to estimate a discrete prior over $m$ possible outcomes, understand some constraints.  To do so, she runs the following experiment:
-%\begin{itemize}
-  %\item Randomly distribute $N$ quanta of probability, each worth $\frac{1}{N}$, among the $m$ possibilities.
-  %\item Check if the probability assignment is consistent with her prior information.  If inconsistent: reject and try again.
-  %\item If the assignment agrees with her prior information, her estimated prior distribution $\p$ is given by
-    %\begin{align*}
-      %\p_i = \frac{n_i}{N}; \qquad i \in \left\{ 1, 2, \dots, m \right\}
-    %\end{align*}
-    %where $\p_i$ is the probability of the $i$-th outcome, and $n_i$ is the number of quanta that were assigned to the $i$-th proposition.
-%\end{itemize}
-%The likelihood of any particular probability distribution is given by a multinomial coefficient, $\Pr(p) = \frac{N!}{n_1! n_2! \cdots n_m!} m^{-N}$.  Using Stirling's approximation, it is not hard to show that the most likely prior will converge to the maximum entropy prior as $N \to \infty$ (the full derivation can be found in [\dots]).
+One can derive the familiar probability distributions using this idea.  With fixed variance, the Gaussian is the maximum entropy prior; with fixed mean on $(0, \infty)$, the exponential distribution is the maximum entropy prior.  There are an entire class of methods, ``maximum entropy methods,'' with applications in time series forecasting, combinatorics, and statistical analysis more broadly \cite{jaynes1982rationale}\cite{jaynes2003probability}.
 
-While model interpretability techniques (see e.g. X, Y, Z) have shed light on how to understand agents, information-theoretic models are still powerful tools we can apply to model the multi-agent case.  Build a future with safe, trustworthy AI may require deep inquiry and understanding of the information-theoretic toolbox.
+While model interpretability techniques \cite{hohman2018visual}\cite{koh2017understanding}\cite{olah2017feature} have shed light on how to understand agents, information-theoretic models are still powerful tools we can apply to model the multi-agent case.  Build a future with safe, trustworthy AI may require deep inquiry and understanding of the information-theoretic toolbox.
 
 \newpage
+
+\section*{Acknowledgments}
+
+Thanks to Yuval Wigderson and Michael Swerdlow for reading drafts of this essay.
 
 \bibliographystyle{plain}
 \nocite{*}

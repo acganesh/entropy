@@ -3,46 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: information-theoretic-trust.aux
 The style file: plain.bst
 Database file #1: refs.bib
-Warning--I didn't find a database entry for "tetrais2017brink"
-You've used 12 entries,
+You've used 18 entries,
             2118 wiz_defined-function locations,
-            571 strings with 5587 characters,
-and the built_in function-call counts, 3436 in all, are:
-= -- 347
-> -- 119
-< -- 2
-+ -- 51
-- -- 36
-* -- 198
-:= -- 581
-add.period$ -- 37
-call.type$ -- 12
-change.case$ -- 51
+            601 strings with 6402 characters,
+and the built_in function-call counts, 5299 in all, are:
+= -- 533
+> -- 200
+< -- 3
++ -- 83
+- -- 62
+* -- 313
+:= -- 892
+add.period$ -- 56
+call.type$ -- 18
+change.case$ -- 81
 chr.to.int$ -- 0
-cite$ -- 12
-duplicate$ -- 151
-empty$ -- 293
-format.name$ -- 36
-if$ -- 724
+cite$ -- 18
+duplicate$ -- 230
+empty$ -- 442
+format.name$ -- 62
+if$ -- 1119
 int.to.chr$ -- 0
-int.to.str$ -- 12
-missing$ -- 15
-newline$ -- 63
-num.names$ -- 24
-pop$ -- 61
+int.to.str$ -- 18
+missing$ -- 22
+newline$ -- 93
+num.names$ -- 36
+pop$ -- 95
 preamble$ -- 1
-purify$ -- 42
+purify$ -- 67
 quote$ -- 0
-skip$ -- 104
+skip$ -- 161
 stack$ -- 0
-substring$ -- 210
-swap$ -- 29
-text.length$ -- 2
+substring$ -- 311
+swap$ -- 47
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 42
+type$ -- 64
 warning$ -- 0
-while$ -- 38
-width$ -- 14
-write$ -- 129
-(There was 1 warning)
+while$ -- 56
+width$ -- 20
+write$ -- 193
