@@ -8,7 +8,7 @@
 \setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
 
 \lhead{Information-theoretic trust; \textsc{OpenAI Trust in AI Report}}
-\rhead{\textsc{Adithya C. Ganesh}
+\rhead{Adithya C. Ganesh}
 \pagestyle{fancy}
 
 %
@@ -24,7 +24,7 @@
 
 \begin{document}
 
-Political scientists identify two categories of problems that impede trust: {\it information problems} and {\it commitment problems}.  They are traditionally applied to the prisoner's dilemma, but they play a critical role in understanding problems of bargaining in war, iterated games, and economic policy.
+Political scientists identify two categories of problems that impede trust: {\it information problems} and {\it commitment problems} \cite{frieden2010world}.  They are traditionally applied to the prisoner's dilemma, but they play a critical role in understanding problems of bargaining in war \cite{lake2010two}, iterated games, and economic policy.
 
 For instance, the current U.S.--China trade war presents a setting in which two parties converge on an ostensibly suboptimal policy (economic sanctions) because of these problems.  First, each party lacks complete information on the long-term objectives of the other (e.g. geopolitical / economic agendas).  Second, each party cannot be sure that the other will commit to policy changes (e.g. reduction in trade deficit, or improvement in Chinese market practices).  Modelling such systems with information theory might play a role in building AI we can trust.
 
@@ -49,6 +49,8 @@ Finally, what priors should we use to model agents?  There are many potential an
 %The likelihood of any particular probability distribution is given by a multinomial coefficient, $\Pr(p) = \frac{N!}{n_1! n_2! \cdots n_m!} m^{-N}$.  Using Stirling's approximation, it is not hard to show that the most likely prior will converge to the maximum entropy prior as $N \to \infty$ (the full derivation can be found in [\dots]).
 
 While model interpretability techniques (see e.g. X, Y, Z) have shed light on how to understand agents, information-theoretic models are still powerful tools we can apply to model the multi-agent case.  Build a future with safe, trustworthy AI may require deep inquiry and understanding of the information-theoretic toolbox.
+
+\newpage
 
 \bibliographystyle{plain}
 \nocite{*}
