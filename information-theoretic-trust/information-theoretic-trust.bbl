@@ -1,9 +1,24 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{axelrod1981evolution}
+Robert Axelrod and William~D Hamilton.
+\newblock The evolution of cooperation.
+\newblock {\em science}, 211(4489):1390--1396, 1981.
+
+\bibitem{booss2003mathematics}
+Bernhelm Boo{\ss}-Bavnbek and Jens H{\o}yrup.
+\newblock {\em Mathematics and war}.
+\newblock Springer, 2003.
 
 \bibitem{cover2012elements}
 Thomas~M Cover and Joy~A Thomas.
 \newblock {\em Elements of information theory}.
 \newblock John Wiley \& Sons, 2012.
+
+\bibitem{doersch2016tutorial}
+Carl Doersch.
+\newblock Tutorial on variational autoencoders.
+\newblock {\em arXiv preprint arXiv:1606.05908}, 2016.
 
 \bibitem{frieden2010world}
 Jeffry~A Frieden, David~A Lake, and Kenneth~A Schultz.
@@ -16,6 +31,12 @@ Adithya~C Ganesh.
 \newblock {\em Stanford mathematics department: directed reading program},
   2019.
 
+\bibitem{geiger2012relative}
+Bernhard~C Geiger and Gernot Kubin.
+\newblock Relative information loss in the pca.
+\newblock In {\em 2012 IEEE Information Theory Workshop}, pages 562--566. IEEE,
+  2012.
+
 \bibitem{lake2010two}
 David~A Lake.
 \newblock Two cheers for bargaining theory: Assessing rationalist explanations
@@ -27,9 +48,20 @@ David~JC MacKay.
 \newblock {\em Information theory, inference and learning algorithms}.
 \newblock Cambridge university press, 2003.
 
+\bibitem{panagariya2003international}
+Arvind Panagariya.
+\newblock International trade.
+\newblock {\em Foreign Policy}, pages 20--28, 2003.
+
 \bibitem{shannon1948mathematical}
 Claude~Elwood Shannon.
 \newblock A mathematical theory of communication.
 \newblock {\em Bell system technical journal}, 27(3):379--423, 1948.
+
+\bibitem{tertrais2017brink}
+Bruno Tertrais.
+\newblock “on the brink”—really? revisiting nuclear close calls since
+  1945.
+\newblock {\em The Washington Quarterly}, 40(2):51--66, 2017.
 
 \end{thebibliography}
