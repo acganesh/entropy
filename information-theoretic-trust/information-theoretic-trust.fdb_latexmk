@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex information-theoretic-trust"] 1566945937 "information-theoretic-trust.aux" "information-theoretic-trust.bbl" "information-theoretic-trust" 1566946023
+["bibtex information-theoretic-trust"] 1566946705 "information-theoretic-trust.aux" "information-theoretic-trust.bbl" "information-theoretic-trust" 1566946706
   "/usr/share/texmf-dist/bibtex/bst/base/plain.bst" 1557554374 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "information-theoretic-trust.aux" 1566946023 1432 b3b00542f097dec934b00fea16898995 "pdflatex"
-  "refs.bib" 1566945909 4807 82cbfea0f2122b228f8ca957156471f8 ""
+  "information-theoretic-trust.aux" 1566946705 1432 b3b00542f097dec934b00fea16898995 "pdflatex"
+  "refs.bib" 1566946705 4893 51d13cb5f2fac3ec3d82ddb550c0ef25 ""
   (generated)
   "information-theoretic-trust.blg"
   "information-theoretic-trust.bbl"
-["pdflatex"] 1566946023 "information-theoretic-trust.tex" "information-theoretic-trust.pdf" "information-theoretic-trust" 1566946023
+["pdflatex"] 1566946705 "information-theoretic-trust.tex" "information-theoretic-trust.pdf" "information-theoretic-trust" 1566946706
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1557554374 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1557554374 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1557554374 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -42,16 +42,15 @@
   "/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty" 1557554374 2432 8ff93b1137020e8f21930562a874ae66 ""
   "/usr/share/texmf-dist/tex/latex/base/article.cls" 1557554374 19933 3097d1b31d3c45dc957096f554529032 ""
   "/usr/share/texmf-dist/tex/latex/base/size11.clo" 1557554374 8310 3be7fb8fac17ab8f3f822aa0c9800815 ""
-  "/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty" 1557556602 51603 ccc7546d1e15809a779ade2c44d54044 ""
   "/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty" 1557554374 11128 a53805799bebfed6358fc1658a18e41f ""
   "/usr/share/texmf-dist/tex/latex/geometry/geometry.sty" 1557554374 41645 0653033a985e06c69a2a9cea9a95e31a ""
   "/usr/share/texmf-dist/tex/latex/graphics/keyval.sty" 1557554374 2591 6404d0c7d28505fb38ce0d86c2e28ae7 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1557554374 33301 a3134070eacafb10b1f371612ce2650d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1566840425 3106380 436fef8c2e0ca660ce1dd89198cfa583 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1566840420 7979416 ac2ee54fdfc5f47d53dc3c3970ed5683 ""
-  "information-theoretic-trust.aux" 1566946023 1432 b3b00542f097dec934b00fea16898995 "pdflatex"
-  "information-theoretic-trust.bbl" 1566945937 3862 f63744cd4b860bf22ee4bbc40b12cc36 "bibtex information-theoretic-trust"
-  "information-theoretic-trust.tex" 1566946022 6176 7a7f34f529eece355bba1ea63a425076 ""
+  "information-theoretic-trust.aux" 1566946705 1432 b3b00542f097dec934b00fea16898995 "pdflatex"
+  "information-theoretic-trust.bbl" 1566946705 3943 ec09ba7ffb9f9042f8b8a72e21ab36a0 "bibtex information-theoretic-trust"
+  "information-theoretic-trust.tex" 1566946555 6076 f71cdc8cede51abedfd2ab3d34d02448 ""
   (generated)
   "information-theoretic-trust.aux"
   "information-theoretic-trust.log"

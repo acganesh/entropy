@@ -31,8 +31,6 @@ INPUT /usr/share/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 INPUT /usr/share/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 INPUT /usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 INPUT /usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-INPUT /usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
-INPUT /usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT information-theoretic-trust.aux
 INPUT information-theoretic-trust.aux
 OUTPUT information-theoretic-trust.aux
