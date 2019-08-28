@@ -1,5 +1,3 @@
 ## entropy
 
-Notes and code related to algorithmic information theory.
-
-
+Notes and code related to algorithmic information theory.  Under construction.
