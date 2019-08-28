@@ -2,7 +2,7 @@
 
 Notes and code related to algorithmic information theory.  Under construction.
 
-This repository contains:
+Thus far, this repository contains:
 
 - Notes from EE376A, Information Theory,  (Prof. Tsachy Weissman).
 - "The principle of maximum entropy," an article I wrote as part of the Stanford math department's Directed Reading Program.  Advised by Yuval Wigderson.
